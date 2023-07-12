@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+#sidemenu{
+  padding: 12px;
+}
+
+.add_project{
+  display: block;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+
+  border: 1px solid gainsboro;
+  outline: none;
+  padding: 8px 2px;
+}
+
+.search input{
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 2px;
+
+}
+
+.search button{
+  padding: 0 9px;
+  background: transparent;
+  border: none;
+}
+
+.project_list{
+  height: 12rem;
+  overflow-y: scroll;
+}
+
+.project_list::-webkit-scrollbar{
+  width: 8px;
+}
+
+.project_list::-webkit-scrollbar-track{
+  background-color: aliceblue;
+}
+
+.project_list::-webkit-scrollbar-thumb{
+  background-color: deepskyblue;
+}
+
+.project_list li{
+  margin: 8px 0;
+}
+
+.project_list li a{
+  color: blue;
+  text-decoration: none;
+}
+
+
+#hamburger{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  background: transparent;
+}
+
+
+.openSideMenu{
+  display: block;
+  transition: 0.3s ease;
+
+}
+
+.closeSideMenu{
+  display: none;
+  transition: 0.3s ease;
+
+}
+
+
+.task_input{
+  background-color: aliceblue;
+  border-radius:  8px;
+  height: 44px;
+  border: 1px solid gainsboro;
+  padding: 0 12px;
+  outline: none;
+}
+
+.sortable-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sortable-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: move;
+}
+
+.sortable-placeholder {
+    background-color: #ddd;
+    visibility: hidden;
+}
